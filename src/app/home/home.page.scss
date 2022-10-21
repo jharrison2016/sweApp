@@ -1,27 +1,45 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.container{
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+.logoWindow{
+    text-align: center;
+    height: fit-content;
+    padding: 0;
+}
+.image{
+    width: 100%;
+    height: fit-content;
+}
+.logoImage{
+    width: 25%;
+    height: auto;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+
+.imageWindow{
+    height: fit-content;
+    padding: 0;
+    text-align: center;
+    margin: 15vh 0vw 5vh 0vw;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+.assetImage{
+    width: 75%;
+    height: auto;
 }
-
-#container a {
-  text-decoration: none;
+.buttonsWindow{
+    height: 25vh;
+    width: 80vw;
+    padding: 0;
+    margin: 10vh 10vw 0vh 10vw;
+}
+.title{
+    text-align: center;
+    font-size: large;
+    margin-top: 8%;
+    font-family: 'Open Sans', sans-serif;
 }

@@ -1,20 +1,30 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content [fullscreen]="true"  color="primary">
+  <div class="container">
+    <ion-grid [fixed]="true">
+      <ion-row size="1" class="logoWindow">
+        <ion-col class="image">
+            <img class="logoImage" src="../../assets/sweLogo.PNG">
+        </ion-col>
+      </ion-row>
+      
+      <ion-row size="1" class="imageWindow">
+        <ion-col class="image">
+            <img class="assetImage" src="../../assets/undraw_engineering_team_a7n2.svg">
+        </ion-col>
+      </ion-row>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+      <ion-row size="1">
+        <ion-card class="buttonsWindow" color="secondary">
+          <ion-card-title class="title">
+            Welcome to Ohio State SWE!
+          </ion-card-title>
+          <ion-card-content>
+            <div>
+              <app-home-componenet></app-home-componenet>
+            </div>
+          </ion-card-content>
+        </ion-card>
+      </ion-row>
+    </ion-grid>
   </div>
 </ion-content>
