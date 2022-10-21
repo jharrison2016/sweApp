@@ -1,0 +1,7 @@
+{
+  "name": "sweApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
